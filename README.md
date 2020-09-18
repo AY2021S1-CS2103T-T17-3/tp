@@ -13,6 +13,6 @@
 * For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
 * This project is a **part of the se-education.org** initiative. If you would like to contribute code to this project, see [se-education.org](https://se-education.org#https://se-education.org/#contributing) for more info.
 
-* This application is designed for job recruiters to track candidates according to which job listing they are interested in. 
-* Relevant contacts of all applicants are centralised and categorised, 
+* This application is designed for job recruiters to track candidates according to which job listing they are interested in.
+* Relevant contacts of all applicants are centralised and categorised,
 * reducing the hassle of having to look for applicants repeatedly on different platforms for each new job posting.
