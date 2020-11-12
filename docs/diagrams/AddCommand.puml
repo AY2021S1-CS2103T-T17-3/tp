@@ -37,10 +37,10 @@ create AddPersonCommand
 AddPersonCommandParser -> AddPersonCommand
 activate AddPersonCommand
 
-AddPersonCommand --> AddPersonCommandParser : "a"
+AddPersonCommand --> AddPersonCommandParser : a
 deactivate AddPersonCommand
 
-AddPersonCommandParser --> AddressBookParser : "a"
+AddPersonCommandParser --> AddressBookParser : a
 
 
 destroy AddPersonCommandParser
@@ -48,17 +48,17 @@ destroy AddPersonCommandParser
 AddressBookParser --> LogicManager : a
 deactivate AddressBookParser
 
-LogicManager -> AddPersonCommand : "execute()"
+LogicManager -> AddPersonCommand : execute()
 activate AddPersonCommand
 
-AddPersonCommand -> Model : "hasPerson(Person)"
+AddPersonCommand -> Model : hasPerson(Person)
 activate Model
 Model --> AddPersonCommand
 deactivate Model
 
 
 
-AddPersonCommand -> Model : "addPerson(Person)"
+AddPersonCommand -> Model : addPerson(Person)
 activate Model
 Model --> AddPersonCommand
 deactivate Model

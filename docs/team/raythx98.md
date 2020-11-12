@@ -16,18 +16,12 @@ The user interacts with it using a CLI, and it has a GUI created with JavaFX. It
   * Justification: This feature improves the product significantly because a typical job recruiter has many candidates to handle, this feature will provide a convenient way for them to look for suitable candidates and streamline their search.
   * Highlights: This enhancement was challenging as it requires chaining of various predicates to achieve the desired outcome. An in-depth understanding of the code base is required it involves numerous other classes.
 
-<br>
-
 * **New Feature**: `find job`
   * What it does: Searches the job list for all jobs with fields containing all the specified keywords.
   * Justification: This feature improves the product significantly because a typical job recruiter has many job listings to handle, this feature will provide a convenient way for them to look for suitable jobs and streamline their search.
   * Highlights: This enhancement was challenging as it requires chaining of various predicates to achieve the desired outcome. An in-depth understanding of the code base is required it involves numerous other classes.
 
-<br>
-
 * **Code contributed**: [RepoSense link](https://nus-cs2103-ay2021s1.github.io/tp-dashboard/#search=raythx98&sort=groupTitle&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=false&tabOpen=false)
-
-<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -36,17 +30,13 @@ The user interacts with it using a CLI, and it has a GUI created with JavaFX. It
   * Ensured that project deliverables are done on time and in the right format.
   * In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.
 
-<br>
-
 * **Enhancements to existing features**:
   * Implemented adding of candidates and jobs (Pull requests [\#85](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/85))
   * Implemented listing of candidates and jobs [\#87](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/87)
   * Implemented the chaining of multiple search predicates [\#137](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/137)
   * Wrote numerous utility classes for the purpose of testing (examples: [\#85](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/85), [\#87](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/87))
   * Wrote additional tests for existing features to increase code coverage by 12.16% (examples: [\#93](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/93), [\#126](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/126), [\#126](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/126), [\#138](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/138))
-  * Forced the application to fail gracefully when data files are corrupted [\#269](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/269)
-
-<br>
+  * Patched the application to fail gracefully when data files are corrupted [\#269](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/269)
 
 * **Documentation**:
   * Readme:
@@ -62,14 +52,10 @@ The user interacts with it using a CLI, and it has a GUI created with JavaFX. It
   * Demonstration Video:
     * Recorded and edited the project [demonstration video](https://youtu.be/QK74ampajtI)
 
-<br>
-
 * **Community**:
   * Contributed to forum discussions [#68](https://github.com/AY2021S1-CS2103T-T17-3/tp/issues/68)
   * Reported bugs and suggestions (examples: [#247](https://github.com/AY2021S1-CS2103T-T17-3/tp/issues/247), [#249](https://github.com/AY2021S1-CS2103T-T17-3/tp/issues/249), [#252](https://github.com/AY2021S1-CS2103T-T17-3/tp/issues/252))
   * Reported bugs for and gave suggestions to other teams in the class (examples: [PE Dry Run](https://github.com/raythx98/ped/issues))
-
-<br>
 
 * **Tools**:
   * Integrated the code coverage badge to the team repo [\#93](https://github.com/AY2021S1-CS2103T-T17-3/tp/pull/93)
